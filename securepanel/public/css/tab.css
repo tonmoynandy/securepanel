@@ -1,0 +1,42 @@
+.tab {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+}
+.tab .tab-menu {
+  display: table;
+  justify-content: space-around;
+}
+.tab .tab-menu .tab-menu-item {
+  cursor: pointer;
+  display: table-cell;
+  padding: 10px;
+  margin: 2px;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+}
+.tab .tab-menu .tab-menu-item.active {
+  border: 1px solid #e4e4e4;
+  background: #f3f3f3;
+  font-weight: bold;
+  color: #616161;
+}
+.tab.vertical {
+  flex-flow: inherit;
+  justify-content: space-between;
+}
+.tab.vertical .tab-menu {
+  width: 20%;
+}
+.tab.vertical .tab-menu .tab-menu-item {
+  display: block;
+  text-align: left;
+  border-right: 1px solid #CCC;
+  border-bottom: none;
+}
+.tab.vertical .tab-menu .tab-menu-item.active {
+  /* border-right: 1px solid #e4e4e4; */
+}
+.tab.vertical .tab-content {
+  width: 78%;
+}

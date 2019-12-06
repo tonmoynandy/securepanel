@@ -1,0 +1,29 @@
+@media (min-width: 320px) and (max-width: 1024px) {
+
+    .sidenav {
+        width: 100%;
+    }
+
+    .sidenav .main-header .logo-panel {
+        width: 100%;
+    }
+
+    .sidenav .main-header .logo-panel img {
+        width: 70px;
+        margin: 0 0 0 30%;
+    }
+
+    .sidenav.open {
+        width: 100%;
+    }
+
+    .sidenav.close {
+        width: 50px;
+    }
+    .dashboard-mid-section .card {
+        width: 100%;
+    }
+    .password-form-container {
+        width: 100%;
+    }
+}
